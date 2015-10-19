@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gcet.technica.iste.gcetiste" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/images"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".eventActivity"
+            android:label="@string/title_activity_event" >
+        </activity>
+        <activity
+            android:name=".technicaActivity"
+            android:label="@string/title_activity_technica" >
+        </activity>
+        <activity
+            android:name=".technicaTechEvent"
+            android:label="@string/title_activity_technica_tech_event" >
+        </activity>
+        <activity
+            android:name=".mechatricianEvent"
+            android:label="@string/title_activity_mechatrician_event" >
+        </activity>
+        <activity
+            android:name=".technicaNonTechActivity"
+            android:label="@string/title_activity_technica_non_tech" >
+        </activity>
+        <activity
+            android:name=".scientistEvent"
+            android:label="@string/title_activity_scientist_event" >
+        </activity>
+        <activity
+            android:name=".SmartOFastEvent"
+            android:label="@string/title_activity_smart_ofast" >
+        </activity>
+        <activity
+            android:name=".codeStorm"
+            android:label="@string/title_activity_code_storm" >
+        </activity>
+        <activity
+            android:name=".counterEvent"
+            android:label="@string/title_activity_counter_event" >
+        </activity>
+        <activity
+            android:name=".SoccerManiac"
+            android:label="@string/title_activity_soccer_maniac" >
+        </activity>
+        <activity
+            android:name=".snapIt"
+            android:label="@string/title_activity_snap_it" >
+        </activity>
+        <activity
+            android:name=".pythonWorkshop"
+            android:label="@string/title_activity_python_workshop" >
+        </activity>
+        <activity
+            android:name=".AboutRec"
+            android:label="@string/title_activity_about_rec" >
+        </activity>
+        <activity
+            android:name=".scheduleActivity2"
+            android:label="@string/title_activity_schedule2" >
+        </activity>
+        <activity
+            android:name=".dmReport"
+            android:label="@string/title_activity_dm_report" >
+        </activity>
+        <activity
+            android:name=".quizoReport"
+            android:label="@string/title_activity_quizo_report" >
+        </activity>
+    </application>
+
+</manifest>

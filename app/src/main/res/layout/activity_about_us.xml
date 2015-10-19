@@ -1,0 +1,440 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gcet.technica.iste.gcetiste.mechatricianEvent">
+
+    <include
+        android:id="@+id/toolbox_about"
+        layout="@layout/tool_box"></include>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_about_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clipChildren="true"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_about"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sangani"/>
+
+                    <TextView
+                        android:id="@+id/text_about"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/image_about"
+                        android:text="@string/name_chairperson"
+                        android:textColor="#43a047"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/text_1_about"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chairperson"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="18sp"
+                        android:layout_alignBottom="@+id/image_about"
+                        android:layout_alignLeft="@+id/text_about"
+                        android:layout_alignStart="@+id/text_about" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_about_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clipChildren="true"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_about_vice"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/axar"/>
+
+                    <TextView
+                        android:id="@+id/text_about_vice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/image_about_vice"
+                        android:text="@string/name_vicechairperson"
+                        android:textColor="#43a047"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/text_1_about_vice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vice Chairperson"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="18sp"
+                        android:layout_alignBottom="@+id/image_about_vice"
+                        android:layout_alignLeft="@+id/text_about_vice"
+                        android:layout_alignStart="@+id/text_about_vice" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_about_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clipChildren="true"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_about_sec"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/jayraj"/>
+
+                    <TextView
+                        android:id="@+id/text_about_sec"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/image_about_sec"
+                        android:text="@string/name_secretary"
+                        android:textColor="#43a047"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/text_1_about_sec"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Secratary"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="18sp"
+                        android:layout_alignBottom="@+id/image_about_sec"
+                        android:layout_alignLeft="@+id/text_about_sec"
+                        android:layout_alignStart="@+id/text_about_sec" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_about_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clipChildren="true"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_about_tech_1"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/shivansh"/>
+
+                    <TextView
+                        android:id="@+id/text_about_tech_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/image_about_tech_1"
+                        android:text="@string/name_technicalhead_1"
+                        android:textColor="#43a047"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/text_1_about_tech_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Technical Head"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="18sp"
+                        android:layout_alignBottom="@+id/image_about_tech_1"
+                        android:layout_alignLeft="@+id/text_about_tech_1"
+                        android:layout_alignStart="@+id/text_about_tech_1" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_about_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clipChildren="true"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_about_tech_2"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/jignesh"/>
+
+                    <TextView
+                        android:id="@+id/text_about_tech_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/image_about_tech_2"
+                        android:text="@string/name_technicalhead_2"
+                        android:textColor="#43a047"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/text_1_about_tech_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Technical Head"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="18sp"
+                        android:layout_alignBottom="@+id/image_about_tech_2"
+                        android:layout_alignLeft="@+id/text_about_tech_2"
+                        android:layout_alignStart="@+id/text_about_tech_2" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_about_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clipChildren="true"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_about_non"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/savan"/>
+
+                    <TextView
+                        android:id="@+id/text_about_non"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/image_about_non"
+                        android:text="@string/name_nontechnicalhead"
+                        android:textColor="#43a047"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/text_1_about_non"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Non Technical Head"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="18sp"
+                        android:layout_alignBottom="@+id/image_about_non"
+                        android:layout_alignLeft="@+id/text_about_non"
+                        android:layout_alignStart="@+id/text_about_non" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_about_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clipChildren="true"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_about_des"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/shivang"/>
+
+                    <TextView
+                        android:id="@+id/text_about_des"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/image_about_des"
+                        android:text="@string/name_designerhead"
+                        android:textColor="#43a047"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/text_1_about_des"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Designer Head"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="18sp"
+                        android:layout_alignBottom="@+id/image_about_des"
+                        android:layout_alignLeft="@+id/text_about_des"
+                        android:layout_alignStart="@+id/text_about_des" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_about_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clipChildren="true"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_about_deco"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rishiraj"/>
+
+                    <TextView
+                        android:id="@+id/text_about_deco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/image_about_deco"
+                        android:text="@string/name_champaininghead"
+                        android:textColor="#43a047"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/text_1_about_deco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Campaigning Head"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="18sp"
+                        android:layout_alignBottom="@+id/image_about_deco"
+                        android:layout_alignLeft="@+id/text_about_deco"
+                        android:layout_alignStart="@+id/text_about_deco" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_about_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clipChildren="true"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="2dp"
+                card_view:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_about_cha"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rishiraj"/>
+
+                    <TextView
+                        android:id="@+id/text_about_cha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/image_about_cha"
+                        android:text="@string/name_volunteerhead"
+                        android:textColor="#43a047"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/text_1_about_cha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Volunteer Head"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="18sp"
+                        android:layout_alignBottom="@+id/image_about_cha"
+                        android:layout_alignLeft="@+id/text_about_cha"
+                        android:layout_alignStart="@+id/text_about_cha" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

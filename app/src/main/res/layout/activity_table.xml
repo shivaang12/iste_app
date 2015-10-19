@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gcet.technica.iste.gcetiste.tableActivity">
+
+    <include
+        android:id="@+id/toolbox_table"
+        layout="@layout/tool_box"></include>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="horizontal">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tableLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/TextView0400"
+                    android:text="Time"></TextView>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_span="6"
+                    android:gravity="center"
+                    android:text="Events"
+                    android:textSize="18dp"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/TextView040"
+                    android:text="9 PM"></TextView>
+
+                <TextView
+                    android:id="@+id/TextView041"
+                    android:layout_width="100dp"
+                    android:gravity="center"
+                    android:text="The Scientists (R1) "></TextView>
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="100dp"
+                    android:gravity="center"
+                    android:text="SMART-O-FAST (R1)"></TextView>
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:text="Feb 9"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:text="Feb 10"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:text="Feb 11"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:text="Day High"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:gravity="center_horizontal"
+                    android:text="28°F"></TextView>
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:gravity="center_horizontal"
+                    android:text="26°F"></TextView>
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:gravity="center_horizontal"
+                    android:text="23°F"></TextView>
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:gravity="center_horizontal"
+                    android:text="17°F"></TextView>
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:gravity="center_horizontal"
+                    android:text="19°F"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:text="Day Low"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:gravity="center_horizontal"
+                    android:text="15°F"></TextView>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:gravity="center_horizontal"
+                    android:text="14°F"></TextView>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:gravity="center_horizontal"
+                    android:text="3°F"></TextView>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:gravity="center_horizontal"
+                    android:text="5°F"></TextView>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:gravity="center_horizontal"
+                    android:text="6°F"></TextView>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
